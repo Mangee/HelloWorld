@@ -14,6 +14,7 @@
 		B8336E001A751EB2001B9DAF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8336DFF1A751EB2001B9DAF /* Images.xcassets */; };
 		B8336E031A751EB2001B9DAF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8336E011A751EB2001B9DAF /* LaunchScreen.xib */; };
 		B8336E0F1A751EB2001B9DAF /* HelloWorldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8336E0E1A751EB2001B9DAF /* HelloWorldTests.swift */; };
+		B8336E191A752553001B9DAF /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8336E181A752553001B9DAF /* Item.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		B8336E081A751EB2001B9DAF /* HelloWorldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloWorldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8336E0D1A751EB2001B9DAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B8336E0E1A751EB2001B9DAF /* HelloWorldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorldTests.swift; sourceTree = "<group>"; };
+		B8336E181A752553001B9DAF /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				B8336E011A751EB2001B9DAF /* LaunchScreen.xib */,
 				B8336DF71A751EB2001B9DAF /* HelloWorld.xcdatamodeld */,
 				B8336DF31A751EB2001B9DAF /* Supporting Files */,
+				B8336E181A752553001B9DAF /* Item.swift */,
 			);
 			path = HelloWorld;
 			sourceTree = "<group>";
@@ -215,6 +218,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8336E191A752553001B9DAF /* Item.swift in Sources */,
 				B8336DFB1A751EB2001B9DAF /* ViewController.swift in Sources */,
 				B8336DF61A751EB2001B9DAF /* AppDelegate.swift in Sources */,
 				B8336DF91A751EB2001B9DAF /* HelloWorld.xcdatamodeld in Sources */,
